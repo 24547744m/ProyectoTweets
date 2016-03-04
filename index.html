@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweets Project</title>
+    <script src="assets/js/lib/angular.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/controller.js"></script>
+</head>
+<body ng-app="TweetsApp" ng-controller="TweetsController">
+
+    <div id="tweets-container" >
+        <h1>Tweets</h1>
+        <p>{{ res }}</p>
+        <div ng-repeat="n in nums">
+            {{ n }}
+        </div>
+
+    </div>
+
+</body>
+</html>
